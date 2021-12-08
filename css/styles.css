@@ -148,7 +148,7 @@ h4 {
 
 .heading {
     font-size: 60px;
-    color: #4bb941;
+    color: #7ddb31;
 }
 
 .section {
@@ -179,15 +179,15 @@ h4 {
 
 .coming-soon {
     /* margin: 5rem 0; */
-    background-color: #f7f7f7;
+    background-color: #7ddb31;
     width: 100vw;
 }
 
 .coming-soon p {
     padding: 3.5rem;
     text-align: center;
-    color: #4bb941;
-    font-size: 32px;
+    color: #ffffff;
+    font-size: 60px;
     font-weight: 500;
 }
 
@@ -245,7 +245,7 @@ h4 {
         display: none;
     }
     .main {
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
     .heading-1-content {
         font-size: 16px;
@@ -271,6 +271,19 @@ h4 {
     }
     .section-1-image {
         display: none;
+    }
+    .coming-soon {
+        /* margin: 5rem 0; */
+        background-color: #7ddb31;
+        width: 100vw;
+        margin: 5rem 0 2.5rem 0;
+    }
+    .coming-soon p {
+        padding: 3.5rem;
+        text-align: center;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 500;
     }
     .sticky {
         position: fixed;
@@ -325,7 +338,7 @@ h4 {
         font-size: 14px;
     }
     .main {
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
     .logo-img {
         height: 15px;
@@ -363,6 +376,19 @@ h4 {
     }
     .section-1-image {
         display: none;
+    }
+    .coming-soon {
+        /* margin: 5rem 0; */
+        background-color: #7ddb31;
+        width: 100vw;
+        margin: 5rem 0 2.5rem 0;
+    }
+    .coming-soon p {
+        padding: 3.5rem;
+        text-align: center;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 500;
     }
     .sticky {
         position: fixed;
@@ -421,7 +447,7 @@ h4 {
         font-size: 14px;
     }
     .main {
-        margin-top: 5rem;
+        margin-top: 2.5rem;
     }
     .heading {
         font-size: 48px;
@@ -459,5 +485,18 @@ h4 {
     }
     .images {
         width: 300px;
+    }
+    .coming-soon {
+        /* margin: 5rem 0; */
+        background-color: #7ddb31;
+        width: 100vw;
+        margin: 5rem 0 2.5rem 0;
+    }
+    .coming-soon p {
+        padding: 3.5rem;
+        text-align: center;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 500;
     }
 }
