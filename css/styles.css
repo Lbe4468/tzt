@@ -148,7 +148,7 @@ h4 {
 
 .heading {
     font-size: 60px;
-    color: #7ddb31;
+    color: #88e608;
 }
 
 .section {
@@ -179,7 +179,7 @@ h4 {
 
 .coming-soon {
     /* margin: 5rem 0; */
-    background-color: #7ddb31;
+    background-color: #88e608;
     width: 100vw;
 }
 
@@ -211,10 +211,6 @@ h4 {
     }
     nav ul li.btn {
         display: block;
-    }
-    nav ul li.nav-items:hover {
-        border-radius: 5px;
-        box-shadow: inset 0 0 5px #4bb941, inset 0 0 10px #4bb941;
     }
     nav ul li.nav-items:hover:after {
         opacity: 0;
@@ -279,10 +275,10 @@ h4 {
         margin: 5rem 0 2.5rem 0;
     }
     .coming-soon p {
-        padding: 3.5rem;
+        padding: 2.5rem;
         text-align: center;
         color: #ffffff;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 500;
     }
     .sticky {
@@ -313,10 +309,6 @@ h4 {
     }
     nav ul li.btn {
         display: block;
-    }
-    nav ul li.nav-items:hover {
-        border-radius: 5px;
-        box-shadow: inset 0 0 5px #4bb941, inset 0 0 10px #4bb941;
     }
     nav ul li.nav-items:hover:after {
         opacity: 0;
@@ -384,10 +376,10 @@ h4 {
         margin: 5rem 0 2.5rem 0;
     }
     .coming-soon p {
-        padding: 3.5rem;
+        padding: 3rem;
         text-align: center;
         color: #ffffff;
-        font-size: 48px;
+        font-size: 42px;
         font-weight: 500;
     }
     .sticky {
@@ -418,10 +410,6 @@ h4 {
     }
     nav ul li.btn {
         display: block;
-    }
-    nav ul li.nav-items:hover {
-        border-radius: 5px;
-        box-shadow: inset 0 0 5px #4bb941, inset 0 0 10px #4bb941;
     }
     nav ul li.nav-items:hover:after {
         opacity: 0;
