@@ -96,7 +96,7 @@ nav ul li.logo {
 }
 
 nav ul li a {
-    color: #00316E;
+    color: #494949;
     font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
@@ -152,7 +152,7 @@ cite {
 
 .heading {
     font-size: 60px;
-    color: #00316E;
+    color: #4bb941;
 }
 
 .section {
@@ -192,14 +192,14 @@ cite {
 
 .coming-soon {
     margin-top: 5rem;
-    background-color: #00316E;
+    /* background-color: #88e608; */
     width: 100vw;
 }
 
 .coming-soon p {
     padding: 3.5rem;
     text-align: center;
-    color: #ffffff;
+    color: #4bb941;
     font-size: 60px;
     font-weight: 500;
 }
