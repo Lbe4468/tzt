@@ -9,12 +9,12 @@
 html,
 body {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     overflow-x: hidden;
 }
 
 header {
-    margin: 0 0 5rem 0;
+    /* margin: 0 0 5rem 0; */
 }
 
 article {
@@ -37,16 +37,6 @@ header,
 main,
 footer {
     flex-shrink: 0;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10rem;
-    min-height: 20rem;
-    border-top: 1px solid rgb(236, 239, 241);
 }
 
 footer p {
@@ -116,6 +106,16 @@ nav ul li.btn {
     display: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    min-height: 20rem;
+    border-top: 1px solid rgb(236, 239, 241);
+}
+
 p {
     color: #494949;
     width: auto;
@@ -147,12 +147,36 @@ cite {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* min-height: 100vh; */
+    min-height: 100vh;
+}
+
+.header-section {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    background-image: url('../assets/images/TZTImg01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-header {
+    align-self: flex-end;
+    margin-bottom: 5%;
+}
+
+.hero-header h4 {
+    color: #ffffff;
+    font-weight: 300;
+    padding: 2rem;
 }
 
 .heading {
     font-size: 60px;
-    color: #4bb941;
+    color: #ffffff;
 }
 
 .section {
@@ -176,6 +200,45 @@ cite {
 .heading-1-content {
     font-weight: 200;
     font-size: 22px;
+}
+
+.prosperity-heading {
+    width: 100vw;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.prosperity-paradox {
+    background-color: #4bb941;
+    padding: 5rem 0 0 0;
+}
+
+.prosperity-paradox h1 {
+    font-size: 76px;
+    color: #ffffff;
+}
+
+.prosperity-paradox-subheading {
+    font-size: 34px;
+    font-weight: 200;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.prosperity-paradox-details {
+    font-size: 20px;
+    font-weight: 100;
+    color: #494949;
+    line-height: 1.5rem;
+    padding: 2.5rem 0;
+}
+
+.interview-content p {
+    padding: .5rem;
+}
+
+.bold-letters {
+    font-weight: 700;
 }
 
 .separator {
