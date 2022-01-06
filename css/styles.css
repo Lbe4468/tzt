@@ -126,10 +126,6 @@ h4 {
     font-size: 24px;
 }
 
-cite {
-    font-style: normal;
-}
-
 .nav-bar {
     padding: 0.25rem 2rem;
 }
@@ -168,6 +164,11 @@ cite {
     margin-bottom: 5%;
 }
 
+.hero-header h1 {
+    color: #ffffff;
+    font-size: 72px;
+}
+
 .hero-header h4 {
     color: #ffffff;
     font-weight: 300;
@@ -175,8 +176,16 @@ cite {
 }
 
 .heading {
-    font-size: 60px;
-    color: #ffffff;
+    font-size: 48px;
+    color: #4bb941;
+}
+
+.header-black-txt {
+    color: #494949;
+}
+
+.images {
+    padding: 2rem;
 }
 
 .section {
@@ -189,6 +198,10 @@ cite {
     padding: 2rem;
 }
 
+.section-1 {
+    margin-top: 5rem;
+}
+
 .section-1 p {
     padding-top: 1rem;
 }
@@ -199,18 +212,31 @@ cite {
 
 .heading-1-content {
     font-weight: 200;
-    font-size: 22px;
+    font-size: 18px;
+}
+
+.section-2-mobile {
+    display: none;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2rem;
+}
+
+.section-3-mobile {
+    display: none;
 }
 
 .prosperity-heading {
     width: 100vw;
     text-align: center;
-    margin-top: 5rem;
-}
-
-.prosperity-paradox {
     background-color: #4bb941;
-    padding: 5rem 0 0 0;
+    padding: 7.5rem 0 0 0;
 }
 
 .prosperity-paradox h1 {
@@ -218,11 +244,20 @@ cite {
     color: #ffffff;
 }
 
+.prosperity-paradox h1 cite a:link {
+    color: #ffffff;
+}
+
+.prosperity-paradox h1 cite a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .prosperity-paradox-subheading {
     font-size: 34px;
     font-weight: 200;
     color: #ffffff;
-    font-style: italic;
+    padding: 1.5rem;
 }
 
 .prosperity-paradox-details {
@@ -233,8 +268,16 @@ cite {
     padding: 2.5rem 0;
 }
 
-.interview-content p {
-    padding: .5rem;
+.interview-content {
+    margin-top: 2rem;
+}
+
+.interview-content a:link {
+    color: #4bb941;
+}
+
+.interview-content a:visited {
+    color: #429337;
 }
 
 .bold-letters {
@@ -251,6 +294,15 @@ cite {
 
 .poverty-statement a:visited {
     color: #429337
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2rem;
 }
 
 .coming-soon {
@@ -334,6 +386,28 @@ cite {
         flex-shrink: 1;
         align-items: center;
     }
+    .prosperity-heading {
+        padding: 5rem 0 0 0;
+    }
+    .prosperity-paradox h1 {
+        font-size: 42px;
+        color: #ffffff;
+    }
+    .prosperity-paradox-subheading {
+        font-size: 24px;
+        font-weight: 200;
+        color: #ffffff;
+    }
+    .prosperity-paradox-details {
+        font-size: 16px;
+        font-weight: 100;
+        color: #494949;
+        line-height: 1.5rem;
+        padding: 1rem 0 1.5rem 0;
+    }
+    .interview-content {
+        margin-top: 1rem;
+    }
     .section-1-mobile h1 {
         font-size: 42px;
         padding: 0 0 1.25rem 0;
@@ -413,6 +487,28 @@ cite {
     }
     .heading-1-desktop {
         display: none;
+    }
+    .prosperity-heading {
+        padding: 5rem 0 0 0;
+    }
+    .prosperity-paradox h1 {
+        font-size: 48px;
+        color: #ffffff;
+    }
+    .prosperity-paradox-subheading {
+        font-size: 24px;
+        font-weight: 200;
+        color: #ffffff;
+    }
+    .prosperity-paradox-details {
+        font-size: 16px;
+        font-weight: 100;
+        color: #494949;
+        line-height: 1.5rem;
+        padding: 1rem 0 1.5rem 0;
+    }
+    .interview-content {
+        margin-top: 1rem;
     }
     .section-1-mobile h1 {
         font-size: 46px;
@@ -518,6 +614,28 @@ cite {
     }
     .heading-1-desktop {
         display: none;
+    }
+    .prosperity-heading {
+        padding: 5rem 0 0 0;
+    }
+    .prosperity-paradox h1 {
+        font-size: 46px;
+        color: #ffffff;
+    }
+    .prosperity-paradox-subheading {
+        font-size: 32px;
+        font-weight: 200;
+        color: #ffffff;
+    }
+    .prosperity-paradox-details {
+        font-size: 18px;
+        font-weight: 100;
+        color: #494949;
+        line-height: 1.5rem;
+        padding: 1.5rem 0;
+    }
+    .interview-content {
+        margin-top: 1rem;
     }
     .section-1-mobile h1 {
         font-size: 46px;
