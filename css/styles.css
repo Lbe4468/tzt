@@ -370,7 +370,7 @@ h4 {
         padding: 0;
     }
     .header-section {
-        height: 90vh;
+        height: 80vh;
         background-position-x: 60%;
         margin-top: 1.5rem;
     }
@@ -514,7 +514,7 @@ h4 {
         padding: 0;
     }
     .header-section {
-        height: 95vh;
+        height: 80vh;
         background-position-x: 60%;
     }
     .header-section h1 {
@@ -658,7 +658,7 @@ h4 {
         padding: 0;
     }
     .header-section {
-        height: 95vh;
+        height: 80vh;
         margin-top: 1.5rem;
     }
     .hero-header {
