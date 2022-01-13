@@ -158,7 +158,7 @@ h4 {
     background-position-x: 70%;
     justify-content: flex-end;
     text-align: center;
-    margin-top: 78px;
+    /* margin-top: 78px; */
 }
 
 .hero-header {
@@ -240,7 +240,7 @@ h4 {
     width: 100vw;
     background-color: #4bb941;
     text-align: center;
-    margin-top: 78px;
+    /* margin-top: 78px; */
 }
 
 .prosperity-heading {
@@ -415,9 +415,9 @@ h4 {
         padding: 0rem 1rem 1.5rem 1rem;
         line-height: 1.25rem;
     }
-    .main {
+    /* .main {
         margin-top: 2rem;
-    }
+    } */
     .heading {
         font-size: 32px;
         padding-top: 2rem;
