@@ -407,7 +407,7 @@ h4 {
     .header-section {
         height: 80vh;
         background-position-x: 60%;
-        margin-top: 1.5rem;
+        /* margin-top: 1.5rem; */
     }
     .hero-header h1 {
         font-size: 40px;
@@ -484,7 +484,7 @@ h4 {
         margin-top: 1rem;
     }
     section.contact-heading {
-        margin-top: inherit;
+        /* margin-top: inherit; */
     }
     .contact-heading h1 {
         font-size: 42px;
@@ -641,9 +641,9 @@ h4 {
     .interview-content {
         margin-top: 1rem;
     }
-    section.contact-heading {
+    /* section.contact-heading {
         margin-top: inherit;
-    }
+    } */
     .contact-heading h1 {
         font-size: 48px;
         color: #ffffff;
@@ -725,7 +725,7 @@ h4 {
     }
     .header-section {
         height: 80vh;
-        margin-top: 1.5rem;
+        /* margin-top: 1.5rem; */
     }
     .hero-header {
         padding: 0 2.5rem;
