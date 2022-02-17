@@ -7,65 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TranzactCard</title>
     <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/styles.css" />
-    <script id="applicationScript" type="text/javascript" src="./js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
-    <article>
-        <header>
-            <!-- MOBILE RESPONSIVE NAVBAR -->
-            <nav id="navbar" class="nav-bar">
-                <ul>
-                    <li class="logo">
-                        <a href="index.html">
-                            <img class="logo-img" src="./assets/images/TranzactCard Logo 1.png" height="22px" alt="TranzactCard Logo" />
-                        </a>
-                    </li>
-                    <li class="nav-items"><a href="./publications.html">Publications</a></li>
-                    <li class="nav-items"><a href="./contact-us.html">Contact Us</a></li>
-                    <li id="burger-menu" class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
-                </ul>
-            </nav>
-            <script>
-                $(document).ready(function() {
-                    $('.btn').click(function() {
-                        $('.nav-items').toggleClass("show");
-                        $('ul li').toggleClass("hide");
-                    });
-                });
-            </script>
-        </header>
 
-        <main class="main">
-            <!-- SECTION 1 - YOUR PORTAL TO NEW PROSPERITY -->
-            <section class="contact-heading">
-                <div>
+    <!-- MOBILE RESPONSIVE NAVBAR -->
+    <header>
+        <nav id="navbar" class="nav-bar">
+            <ul>
+                <li class="logo">
+                    <a href="./index.html">
+                        <img class="logo-img" src="./assets/images/TranzactCard Logo 1.png" height="22.5px" alt="TranzactCard Logo" />
+                    </a>
+                </li>
+                <li class="nav-items"><a href="./publications.html">Publications</a></li>
+                <li class="nav-items"><a href="./contact-us.html">Contact Us</a></li>
+                <li id="burger-menu" class="btn"><i class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+
+        <script>
+            $(document).ready(function() {
+                $('.btn').click(function() {
+                    $('.nav-items').toggleClass("show");
+                    $('ul li').toggleClass("hide");
+                });
+            });
+        </script>
+    </header>
+
+    <article>
+        <main class="main article-main">
+            <!-- SECTION - HEADER -->
+            <section class="main-header-section">
+                <div class="main-hero-header">
                     <h1>Contact Us</h1>
                 </div>
             </section>
-
-            <!-- SECTION 2 - CONTACT INFO BOX -->
             <section class="contact-section">
-                <div class="contact-form">
-                    Please click here to <br>start a conversation with us!
-                </div>
+                <button id="contact-box" class="section contact-heading" onClick="contactFunction()">
+                <h1>Looking to Chat?</h1>
+                <p class="contact-subheading">Click <span><a href="mailto: bizdev@tranzactcard.com" target="_blank">here</a></span>
+ to send us a message!</p>
+            </button>
             </section>
 
-            <!-- COMING SOON -->
-            <section class="section-4">
-                <div class="coming-soon">
-                    <p>
-                        Arriving in 2022
-                    </p>
-                </div>
-                <div><img class="images" src="./assets/images/TZTImg05.png" width="550px" alt="TZT Card"></div>
-            </section>
         </main>
+
+        <!-- COMING SOON -->
+        <!-- <section class="section-4">
+            <div class="coming-soon">
+                <p>
+                    Arriving in 2022
+                </p>
+            </div>
+            <div><img class="images" src="./assets/images/TZTImg05.png" width="550px" alt="TZT Card"></div>
+        </section> -->
+
         <footer>
             <div>
-                <img class="images footer-img" src="./assets/images/TranzactCard Logo 1.png" width="250px" alt="Financial Tools" />
+                <img class="footer-img" src="./assets/images/TranzactCard Logo 1.png" height="25px" alt="Financial Tools" />
             </div>
             <div>
                 <p>© 2021 TZT LLC</p>
@@ -78,18 +81,19 @@
             myFunction()
         };
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+        var prevScrollPos = window.pageYOffset;
 
         function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollPos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
             } else {
-                navbar.classList.remove("sticky");
+                document.getElementById("navbar").style.top = "-87.5px";
             }
+            prevScrollPos = currentScrollPos;
         }
     </script>
-
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

@@ -13,41 +13,41 @@
 </head>
 
 <body>
-    <article>
-        <header>
-            <!-- MOBILE RESPONSIVE NAVBAR -->
-            <nav id="navbar" class="nav-bar">
-                <ul>
-                    <li class="logo">
-                        <a href="index.html">
-                            <img class="logo-img" src="./assets/images/TranzactCard Logo 1.png" height="22px" alt="TranzactCard Logo" />
-                        </a>
-                    </li>
-                    <li class="nav-items"><a href="./publications.html">Publications</a></li>
-                    <li class="nav-items"><a href="./contact-us.html">Contact Us</a></li>
-                    <li id="burger-menu" class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
-                </ul>
-            </nav>
-            <script>
-                $(document).ready(function() {
-                    $('.btn').click(function() {
-                        $('.nav-items').toggleClass("show");
-                        $('ul li').toggleClass("hide");
-                    });
+
+    <!-- MOBILE RESPONSIVE NAVBAR -->
+    <header>
+        <nav id="navbar" class="nav-bar">
+            <ul>
+                <li class="logo">
+                    <a href="./index.html">
+                        <img class="logo-img" src="./assets/images/TranzactCard Logo 1.png" height="22.5px" alt="TranzactCard Logo" />
+                    </a>
+                </li>
+                <li class="nav-items"><a href="./publications.html">Publications</a></li>
+                <li class="nav-items"><a href="./contact-us.html">Contact Us</a></li>
+                <li id="burger-menu" class="btn"><i class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+
+        <script>
+            $(document).ready(function() {
+                $('.btn').click(function() {
+                    $('.nav-items').toggleClass("show");
+                    $('ul li').toggleClass("hide");
                 });
-            </script>
-        </header>
+            });
+        </script>
+    </header>
 
+    <article>
         <main class="main">
-
             <!-- SECTION - HEADER -->
             <section class="header-section">
-                <div class="section hero-header">
+                <div class="hero-header">
                     <h1>Your portal to new prosperity</h1>
+                    <h4 class="header-details">We're re-engineering a small but vital part of the banking and financial system including resetting the interchange fees in your favor so that your transaction card gives you more than you ever expected.</h4>
                 </div>
-                <h4 class="header-details">We're re-engineering a small but vital part of the banking and financial system, including resetting the interchange fees in your favor, so that your transaction card gives you more than you ever expected.</h4>
             </section>
-
             <!-- SECTION 1 - UNDERBANKED AND UNBANKED -->
             <section class="section section-1">
                 <div>
@@ -55,6 +55,9 @@
                     <p class="heading-content">One of the standard definitions of poverty for the USA is when a family of four is living on an annual income of less than <cite><a href="https://www.latimes.com/opinion/story/2021-09-24/federal-poverty-level-us-families">$25,200</a></cite>,
                         or an individual is living at or below the threshold of <cite><a href="https://www.latimes.com/opinion/story/2021-09-24/federal-poverty-level-us-families">$12,760</a></cite>. By that standard, almost forty-million Americans <cite><a href="https://www.latimes.com/opinion/story/2021-09-24/federal-poverty-level-us-families">live in poverty</a></cite>,
                         and tens of millions more Americans hover at or near that invisible indicator line. About <cite><a href="https://www.prnewswire.com/news-releases/70-of-americans-struggling-to-make-ends-meet-this-year-many-employees-rely-on-employer-programs-for- nancial-advice-and-support-301151078.html?tc=eml_cleartime">70% of adults</a></cite>                        say they are struggling to make ends meet. According to the FDIC, at least 7 million Americans are <cite><a href="https://www.fdic.gov/getbanked/">unbanked</a></cite> and about 50 million are considered <cite><a href="https://www.fdic.gov/analysis/household-survey/2015/2015execsumm.pdf">underbanked</a></cite>.
+
+                    </p><br>
+                    <p class="heading-content">
                         On the global poverty scale, while the USA is third largest by population, it is ranked a surprising 55th amongst all nations for poverty, according to United Nations data. The reported poverty rate is an astonishing <cite><a href="https://worldpopulationreview.com/country-rankings/poverty-rate-by-country">17.8%</a></cite>.
                         Exact numbers will vary according to definitions, reporting reliability, and report objectives, but no one will dispute that the number of financially struggling Americans is very large.
                     </p>
@@ -70,9 +73,12 @@
                     <p class="heading-content">TZT Holdings, with its TranzactCard financial ecosystem, has been formed as a social impact enterprise to drive major increases in the purchasing power of those who need it most. TranzactCard has adopted former Harvard professor, Clayton
                         M. Christensen’s
                         <cite><a href="https://www.christenseninstitute.org/books/the-prosperity-paradox-how-innovation-can-lift-nations-out-of-poverty/?post_types=books">final book</a></cite> as its own handbook for how to use innovation to lift families
-                        and communities out of poverty. Consistent with those principles, TranzactCard resisted early inclinations to operate as a charitable foundation, opting instead to conduct its operations as a for-profit so that it would not have
-                        to be continuously obsessed with raising money which is the bane of most not-for-profits. Though established as a for-profit enterprise, TranzactCard has no shareholders or members; the LLC membership interests are held in trust;
-                        the enterprise is governed by a board of directors supported by a diverse and talented advisory council.
+                        and communities out of poverty.
+                    </p><br>
+                    <p class="heading-content">
+                        Consistent with those principles, TranzactCard resisted early inclinations to operate as a charitable foundation, opting instead to conduct its operations as a for-profit so that it would not have to be continuously obsessed with raising money which is
+                        the bane of most not-for-profits. Though established as a for-profit enterprise, TranzactCard has no shareholders or members; the LLC membership interests are held in trust; the enterprise is governed by a board of directors supported
+                        by a diverse and talented advisory council.
                     </p>
                 </div>
                 <img class="images" src="./assets/images/TZTImg03.png" width="550px" alt="TZT Card" />
@@ -89,20 +95,21 @@
                 </div>
                 <img class="images" src="./assets/images/TZTImg04.png" width="550px" alt="TZT Card" />
             </section>
-
-            <!-- COMING SOON -->
-            <section class="section-4">
-                <div class="coming-soon">
-                    <p>
-                        Arriving in 2022
-                    </p>
-                </div>
-                <div><img class="images" src="./assets/images/TZTImg05.png" width="550px" alt="TZT Card"></div>
-            </section>
         </main>
+
+        <!-- COMING SOON -->
+        <section class="section-4">
+            <div class="coming-soon">
+                <p>
+                    Arriving in 2022
+                </p>
+            </div>
+            <div><img class="images" src="./assets/images/TZTImg05.png" width="550px" alt="TZT Card"></div>
+        </section>
+
         <footer>
             <div>
-                <img class="images footer-img" src="./assets/images/TranzactCard Logo 1.png" width="250px" alt="Financial Tools" />
+                <img class="footer-img" src="./assets/images/TranzactCard Logo 1.png" height="25px" alt="Financial Tools" />
             </div>
             <div>
                 <p>© 2021 TZT LLC</p>
@@ -115,15 +122,16 @@
             myFunction()
         };
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+        var prevScrollPos = window.pageYOffset;
 
         function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollPos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
             } else {
-                navbar.classList.remove("sticky");
+                document.getElementById("navbar").style.top = "-87.5px";
             }
+            prevScrollPos = currentScrollPos;
         }
     </script>
 

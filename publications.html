@@ -7,49 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TranzactCard</title>
     <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/styles.css" />
-    <script id="applicationScript" type="text/javascript" src="./js/index.js"></script>
+    <!-- <script id="applicationScript" type="text/javascript" src="./js/index.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
-    <article>
-        <header>
-            <!-- MOBILE RESPONSIVE NAVBAR -->
-            <nav id="navbar" class="nav-bar">
-                <ul>
-                    <li class="logo">
-                        <a href="index.html">
-                            <img class="logo-img" src="./assets/images/TranzactCard Logo 1.png" height="22px" alt="TranzactCard Logo" />
-                        </a>
-                    </li>
-                    <li class="nav-items"><a href="./publications.html">Publications</a></li>
-                    <li class="nav-items"><a href="./contact-us.html">Contact Us</a></li>
-                    <li id="burger-menu" class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
-                </ul>
-            </nav>
-            <script>
-                $(document).ready(function() {
-                    $('.btn').click(function() {
-                        $('.nav-items').toggleClass("show");
-                        $('ul li').toggleClass("hide");
-                    });
+
+    <!-- MOBILE RESPONSIVE NAVBAR -->
+    <header>
+        <nav id="navbar" class="nav-bar">
+            <ul>
+                <li class="logo">
+                    <a href="./index.html">
+                        <img class="logo-img" src="./assets/images/TranzactCard Logo 1.png" height="22.5px" alt="TranzactCard Logo" />
+                    </a>
+                </li>
+                <li class="nav-items"><a href="./publications.html">Publications</a></li>
+                <li class="nav-items"><a href="./contact-us.html">Contact Us</a></li>
+                <li id="burger-menu" class="btn"><i class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+
+        <script>
+            $(document).ready(function() {
+                $('.btn').click(function() {
+                    $('.nav-items').toggleClass("show");
+                    $('ul li').toggleClass("hide");
                 });
-            </script>
-        </header>
+            });
+        </script>
+    </header>
 
-        <main class="main">
-            <!-- SECTION 1 - YOUR PORTAL TO NEW PROSPERITY -->
-
-            <section class="prosperity-heading">
-                <div class="prosperity-paradox">
-                    <h1><cite><a href="https://www.christenseninstitute.org/books/the-prosperity-paradox-how-innovation-can-lift-nations-out-of-poverty/?post_types=books">The Prosperity Paradox</a></cite></h1>
-                    <p class="prosperity-subheading">How sustainable prosperity is the inverse of most practices implemented by today's enterprises.</p>
-                    <p class="prosperity-details">An interview with Richard T. Smith<br>Co-Founder of TranzactCard <br>by Susan Smith</p>
+    <article>
+        <main class="main article-main">
+            <!-- SECTION - HEADER -->
+            <section class="main-header-section">
+                <div class="main-hero-header">
+                    <h1>TranzactCard Publications</h1>
+                    <h4>Insights Into A Social Impact Enterprise</h4>
                 </div>
             </section>
-            <section class="section">
+
+            <!-- SECTION 1 - YOUR PORTAL TO NEW PROSPERITY -->
+            <section class="section article-heading">
+                <h1><cite><a href="https://www.christenseninstitute.org/books/the-prosperity-paradox-how-innovation-can-lift-nations-out-of-poverty/?post_types=books">The Prosperity Paradox</a></cite></h1>
+                <p class="prosperity-subheading">How sustainable prosperity is the inverse of most practices implemented by today's enterprises.</p>
+                <p class="prosperity-details">An interview with Richard T. Smith<br>Co-Founder of TranzactCard <br>by Susan Smith</p>
+            </section>
+
+            <section class="section article-content">
                 <div class="interview-content">
                     <p><span class="bold-letters">OFFENSIVE COORDINATOR</span> and Head Coach, John James finished his pre-game pep talk to a ragtag group of 8- and 9-year-old football players with a question, “If Coach Smith were here, what would he say
                         to you?” He was met with a long moment of silence before one boy’s face lit up, “I know, Coach! Go get the ball” he started ... “And HIT HARD!!” Each boy on the team shouted the last phrase at the top of his lungs.</p>
@@ -62,11 +69,12 @@
                     <p>
                         <span class="bold-letters">Q. Richard, you speak of engaging in a “social impact enterprise.” That sounds like an innovation of social media and modern technology marketing. Would you agree with that? </span><br>A. It sounds that
                         way but it’s actually been around since the late 1700’s and flourished in the 1800’s, when farmers got together to buy seeds and farming equipment in a co-op structure. Their combined buying power benefitted each farmer individually.
-                        Not many people have heard of Robert Owen (1771–1858), but he is considered the “father of the cooperative movement.” Owen was a Welshman who became wealthy in the cotton trade. He believed in putting his workers in a good environment
-                        and giving them access to education for themselves and their children. Robert Owen became wealthy but he spread the wealth. I think there is a correct and sustainable principle in that. But, when the leaders at the top of an organizational
-                        pyramid form a corporation and pay themselves more than the natural person actually producing the goods or services, when a corporate entity acting as a person takes over an industry and forces small entrepreneurial natural persons
-                        out of business, I see everything becoming plain, boring and lifeless. In my view, what makes life worth living and business worth pursuing is the inverse of the corporate profit model. When an individual creates something that
-                        has value to another individual, profit is a natural byproduct, for both. That’s when there is intrinsic value. Each party to that kind of transaction receives fair value. That’s endlessly replicable. That’s sustainable.
+                        Not many people have heard of Robert Owen (1771–1858), but he is considered the “father of the cooperative movement.” <br><br></r>Owen was a Welshman who became wealthy in the cotton trade. He believed in putting his workers in
+                        a good environment and giving them access to education for themselves and their children. Robert Owen became wealthy but he spread the wealth. I think there is a correct and sustainable principle in that. But, when the leaders
+                        at the top of an organizational pyramid form a corporation and pay themselves more than the natural person actually producing the goods or services, when a corporate entity acting as a person takes over an industry and forces small
+                        entrepreneurial natural persons out of business, I see everything becoming plain, boring and lifeless. In my view, what makes life worth living and business worth pursuing is the inverse of the corporate profit model. When an individual
+                        creates something that has value to another individual, profit is a natural byproduct, for both. That’s when there is intrinsic value. Each party to that kind of transaction receives fair value. That’s endlessly replicable. That’s
+                        sustainable.
                     </p>
                     <p><span class="bold-letters">Q. What do you mean by the term, “Natural Person”? </span><br>A. A natural person is a living breathing human with a heart beat as opposed to a business entity managed by number crunchers, controlling costs
                         and taking the bulk of the profits while leaving the natural persons, the ones that produce the goods and services languishing at the bottom of the profit chain; in the worst examples, with barely enough to survive.</p>
@@ -74,14 +82,14 @@
                         many people as you possibly can as that good or service is created and provided. Let me give you an example: Social impact enterprises have been around forever. A social impact enterprise is any natural person who produces something
                         that serves or benefits another natural person. I’ve been coming here once a week, or more, for about 15 years. My wife and kids love it. This is the number one requested birthday dinner location for my seven sons. I like places
                         where I’m known, where I don’t need a menu and where the quality and service is personal. I've introduced David’s Kitchen to hundreds of friends and business associates and they’ve introduced others.
-                        <br> Henry is the son of David, the original owner. He buys local ingredients to protect the quality of his food and to give back to the community that gives to him. His recognition of me, and treating me like family is the pay
-                        I get for my loyalty. The other night I took my son to a franchise Chinese restaurant that has been another family favorite. On this occasion, despite having eaten there for years, no one recognized me, the quality has gone down,
-                        and even my teenage son, who'll eat about anything, noticed the lack of service and food quality. Why is that? It’s a corporation, driven by shareholder profit, not by intrinsic value.</p>
+                        <br> <br>Henry is the son of David, the original owner. He buys local ingredients to protect the quality of his food and to give back to the community that gives to him. His recognition of me, and treating me like family is the
+                        pay I get for my loyalty. The other night I took my son to a franchise Chinese restaurant that has been another family favorite. On this occasion, despite having eaten there for years, no one recognized me, the quality has gone
+                        down, and even my teenage son, who'll eat about anything, noticed the lack of service and food quality. Why is that? It’s a corporation, driven by shareholder profit, not by intrinsic value.</p>
                     <p><span class="bold-letters">Q. Is it the covid effect that has caused the decline in quality and individuality?</span> <br>A. No, the decline in quality and uniqueness is the result of people always wondering what is in it for them.
                         Many people believe that getting the most they can for the least they can pay is in their best interest and the natural state of the world. It’s not! During every crisis the wealthy make more wealth while entrepreneurs and small
                         business owners feel the pinch; many are forced out of business and even descend into poverty. Supply chains were being suppressed and restricted long before covid. Corporations use crises to get more market share by offering lower
                         prices which inevitably leads to lower quality. The problem with the corporate model is that there is never enough. The success of a corporation is defined primarily by year over year profit increases. A corporation can feel no
-                        satisfaction in a job well done, no joy at seeing a familiar face, no pleasure in being part of a community of people.<br>For 100+ years small hometown businesses struggled and have mostly lost the competition with supermarkets,
+                        satisfaction in a job well done, no joy at seeing a familiar face, no pleasure in being part of a community of people.<br><br>For 100+ years small hometown businesses struggled and have mostly lost the competition with supermarkets,
                         and box stores. I remember, forty years ago, being sent by Dad down to the hardware store in the tiny town of Springville, Utah. I rode my banana bike down 200 South to State Street, went into Kolob Lumber, and told Chip Reynolds,
                         the owner, “My dad, Courtney Smith, sent me down for a hammer.” He took me to the shelf of hammers, handed me one, and said, “I’ll put it on your Dad’s account, Riki, have a great day.” That rarely happens anymore. The personal
                         touch is disappearing. A hammer today costs three times as much as that one did, the quality is half as good and our children aren’t treated like valued members of a community. That is one of the reasons why, despite all the malarkey
@@ -89,14 +97,14 @@
                         the decline.</p>
                     <p><span class="bold-letters">Q. So you say these declines are systemic not circumstantial; how do you plan to change it?</span> <br>A. See it!! Understand that it is not the natural order of things. Support local craftsmen and artisans.
                         When you have a product or service, involve and pay as many people as possible to produce it and get it to market. Cooperate with family, friends and neighbors to make sure we all have enough. Quit working for the corporation that
-                        pays you just enough to purchase from them the products and services you produced. Acquire needful things, share, stop consuming mass-produced crap! And for the love of God, turn off everything that markets to you! When the value
-                        of a person is based on the level of consumption they can attain, the society in which they participate has devolved into a slave state where life has less meaning. The decline of society is always measured on the scale of consumption.
-                        Modern marketing has another name, indoctrination. Advertising is indoctrination. The news is indoctrination. Hollywood is indoctrination. Social media is indoctrination. The point of this indoctrination is to convince each human
-                        being that their natural value is not absolute but is tied to their willingness to accept the indoctrination, mindlessly consume products, and depend on “likes” — external endorsements rather than internal and intrinsic value.
-                        Probably, these driven consumers are using credit which further enslaves them to the salary and the consumer state. Look for companies that connect you to people and their products. I’ve spent most of my career in the Multi- Level
-                        Marketing (MLM or Network Marketing) space because, despite having many of the same issues as the narcissistic corporate space, there is connection with others. Sadly, I’ve watched partners, friends, business leaders and coworkers
-                        in the MLM space fall into the same death spiral as corporations. Products aren’t unique and valuable; they are overpriced variations, containing a “secret ingredient.” These products cost ten times more than a similar item at
-                        a supermarket and few of their “word of mouth” promoters and distributors make more money than they spend.</p>
+                        pays you just enough to purchase from them the products and services you produced. Acquire needful things, share, stop consuming mass-produced crap! And for the love of God, turn off everything that markets to you! <br><br>When
+                        the value of a person is based on the level of consumption they can attain, the society in which they participate has devolved into a slave state where life has less meaning. The decline of society is always measured on the scale
+                        of consumption. Modern marketing has another name, indoctrination. Advertising is indoctrination. The news is indoctrination. Hollywood is indoctrination. Social media is indoctrination. The point of this indoctrination is to convince
+                        each human being that their natural value is not absolute but is tied to their willingness to accept the indoctrination, mindlessly consume products, and depend on “likes” — external endorsements rather than internal and intrinsic
+                        value. Probably, these driven consumers are using credit which further enslaves them to the salary and the consumer state. Look for companies that connect you to people and their products. <br><br>I’ve spent most of my career in
+                        the Multi- Level Marketing (MLM or Network Marketing) space because, despite having many of the same issues as the narcissistic corporate space, there is connection with others. Sadly, I’ve watched partners, friends, business leaders
+                        and coworkers in the MLM space fall into the same death spiral as corporations. Products aren’t unique and valuable; they are overpriced variations, containing a “secret ingredient.” These products cost ten times more than a similar
+                        item at a supermarket and few of their “word of mouth” promoters and distributors make more money than they spend.</p>
                     <p><span class="bold-letters">Q. If someone were to do what you suggest, turn off television, news, social media and entertainment, could they even survive in modern society? </span><br>A. Good question. No, they couldn’t survive in our
                         modern society, but realize that modern society isn’t surviving; it's on a collision course with itself. The current belief system has to be purged and a new belief must take its place.</p>
                     <p><span class="bold-letters">Q. What is that new belief system? </span><br>A. First that a human, a natural person, does not exist as a <cite><a href="https://www.cusip.com/identifiers.html?section=CUSIP">CUSIP</a></cite> - a number,
@@ -112,9 +120,19 @@
             </section>
         </main>
 
+        <!-- COMING SOON -->
+        <section class="section-4">
+            <div class="coming-soon">
+                <p>
+                    Arriving in 2022
+                </p>
+            </div>
+            <div><img class="images" src="./assets/images/TZTImg05.png" width="550px" alt="TZT Card"></div>
+        </section>
+
         <footer>
             <div>
-                <img class="images footer-img" src="./assets/images/TranzactCard Logo 1.png" width="250px" alt="Financial Tools" />
+                <img class="footer-img" src="./assets/images/TranzactCard Logo 1.png" height="25px" alt="Financial Tools" />
             </div>
             <div>
                 <p>© 2021 TZT LLC</p>
@@ -127,15 +145,16 @@
             myFunction()
         };
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+        var prevScrollPos = window.pageYOffset;
 
         function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollPos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
             } else {
-                navbar.classList.remove("sticky");
+                document.getElementById("navbar").style.top = "-87.5px";
             }
+            prevScrollPos = currentScrollPos;
         }
     </script>
 
