@@ -429,7 +429,7 @@ PUBLICATIONS HTML
     }
     .hero-header {
         max-width: 375px;
-        padding: 1.75rem;
+        padding: 1.75rem 1.75rem 3rem 1.75rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
@@ -592,7 +592,7 @@ PUBLICATIONS HTML
     }
     .hero-header {
         max-width: 376px;
-        padding: 1.75rem;
+        padding: 1.75rem 1.75rem 3rem 1.75rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
@@ -758,7 +758,7 @@ PUBLICATIONS HTML
     }
     .hero-header {
         max-width: 700px;
-        padding: 1.75rem;
+        padding: 1.75rem 1.75rem 3rem 1.75rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
