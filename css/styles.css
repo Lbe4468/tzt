@@ -136,7 +136,7 @@ section) h1 {
 }
 
 .logo-img {
-    padding-top: 0.15rem;
+    padding-top: 0.35rem;
 }
 
 .sticky {
@@ -201,7 +201,31 @@ section) h1 {
 .images {
     padding: 0rem 2rem;
 }
-
+.nav-join-now {
+    background-color: #4bb941;
+    border: none;
+    border-radius: 0.75rem;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+.join-now {
+    background-color: #4bb941;
+    border: none;
+    border-radius: 0.75rem;
+    color: white;
+    padding: 1.5rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2rem 0rem;
+    cursor: pointer;
+  }
 .section-1 {
     display: flex;
     flex-direction: row;
@@ -256,125 +280,6 @@ section) h1 {
 }
 
 
-/*
-PUBLICATIONS HTML
-*/
-
-.main-header-section {
-    width: 100vw;
-    margin-top: 83px;
-    padding: 15.2rem 0rem 10rem 0rem;
-    text-align: center;
-    background: #efefef;
-    margin-bottom: 5rem;
-}
-
-.main-hero-header h1 {
-    font-size: 72px;
-    color: #4bb941;
-}
-
-.main-hero-header h4 {
-    font-size: 40px;
-    color: #000000;
-}
-
-.article-heading {
-    background: #429337;
-    text-align: center;
-    max-width: 1200px;
-    border-radius: 4px;
-    padding: 5rem 7.5rem;
-}
-
-.article-heading h1 {
-    font-size: 36px;
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.article-heading h1 cite a {
-    font-style: normal;
-}
-
-.article-heading h1 cite a:link {
-    color: #ffffff;
-}
-
-.article-heading h1 cite a:visited {
-    color: #ffffff;
-}
-
-.prosperity-subheading {
-    font-size: 22px;
-    color: #efefef;
-    font-style: italic;
-    padding: 0.5rem 0rem;
-}
-
-.prosperity-details {
-    font-size: 16px;
-    color: #efefef;
-    padding-top: 1.5rem;
-    line-height: 1.25rem;
-}
-
-.article-content {
-    margin-top: -1.5rem;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
-
-.interview-content {
-    max-width: 1200px;
-    padding: 0rem 2.5rem;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.interview-content p {
-    padding: 0.5rem 0rem;
-}
-
-.interview-content a:link {
-    color: #4bb941;
-}
-
-.interview-content a:visited {
-    color: #429337;
-}
-
-.bold-letters {
-    font-weight: 700;
-    padding: 0.5rem 0rem;
-}
-
-
-/* CONTACT US */
-
-.contact-heading {
-    background-color: #494949;
-    text-align: center;
-    border-radius: 4px;
-    margin: 7.5rem 0rem;
-    padding: 5rem 7.5rem;
-}
-
-.contact-heading h1,
-.contact-heading p {
-    font-size: 36px;
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.article-main {
-    margin-top: -83px;
-}
-
-.contact-section {
-    margin: 5% 0rem;
-}
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 375px) and (min-width: 250px) {
@@ -424,6 +329,19 @@ PUBLICATIONS HTML
     .logo-img {
         height: 18px;
     }
+    .join-now {
+        background-color: #4bb941;
+        border: none;
+        border-radius: 0.75rem;
+        color: white;
+        padding: 1rem 3rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2rem 0rem;
+        cursor: pointer;
+      }
     .header-section {
         height: 95vh;
     }
@@ -492,62 +410,7 @@ PUBLICATIONS HTML
     .coming-soon p {
         font-size: 36px;
     }
-    /* PUBLICATIONS QUERY */
-    .main-header-section {
-        width: 100vw;
-        margin-top: 83px;
-        padding: 10rem 0rem 5rem 0rem;
-        text-align: center;
-        background: #efefef;
-        margin-bottom: 5rem;
-    }
-    .main-hero-header h1 {
-        font-size: 40px;
-        color: #4bb941;
-    }
-    .main-hero-header h4 {
-        font-size: 22px;
-        color: #000000;
-    }
-    .prosperity-subheading {
-        max-width: 250px;
-        font-size: 15px
-    }
-    .prosperity-details {
-        font-size: 12px;
-    }
-    .article-heading {
-        text-align: center;
-        max-width: 1200px;
-        border-radius: 0;
-        padding: 2rem;
-    }
-    .article-heading h1 {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
-    .article-content {
-        margin-top: 0;
-        box-shadow: none;
-    }
-    .interview-content {
-        padding: 1rem 0rem;
-    }
-    .interview-content p {
-        padding: 0.5rem 0rem;
-    }
-    /* CONTACT US */
-    .contact-heading {
-        margin: 5rem 0rem;
-        padding: 2.55rem 5rem;
-    }
-    .contact-heading h1,
-    .contact-heading p {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
+    
 }
 
 @media screen and (max-width: 575.98px) and (min-width: 376px) {
@@ -587,6 +450,19 @@ PUBLICATIONS HTML
     footer p {
         font-size: 14px;
     }
+    .join-now {
+        background-color: #4bb941;
+        border: none;
+        border-radius: 0.75rem;
+        color: white;
+        padding: 1rem 3rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2rem 0rem;
+        cursor: pointer;
+      }
     .header-section {
         height: 95vh;
     }
@@ -655,62 +531,7 @@ PUBLICATIONS HTML
     .coming-soon p {
         font-size: 36px;
     }
-    /* PUBLICATIONS QUERY */
-    .main-header-section {
-        width: 100vw;
-        margin-top: 83px;
-        padding: 10rem 0rem 5rem 0rem;
-        text-align: center;
-        background: #efefef;
-        margin-bottom: 5rem;
-    }
-    .main-hero-header h1 {
-        font-size: 40px;
-        color: #4bb941;
-    }
-    .main-hero-header h4 {
-        font-size: 22px;
-        color: #000000;
-    }
-    .prosperity-subheading {
-        max-width: 250px;
-        font-size: 15px
-    }
-    .prosperity-details {
-        font-size: 12px;
-    }
-    .article-heading {
-        text-align: center;
-        max-width: 1200px;
-        border-radius: 0;
-        padding: 2rem;
-    }
-    .article-heading h1 {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
-    .article-content {
-        margin-top: 0;
-        box-shadow: none;
-    }
-    .interview-content {
-        padding: 1rem 0.25rem;
-    }
-    .interview-content p {
-        padding: 0.5rem 0rem;
-    }
-    /* CONTACT US */
-    .contact-heading {
-        margin: 5rem 0rem;
-        padding: 2.55rem 5rem;
-    }
-    .contact-heading h1,
-    .contact-heading p {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
+   
 }
 
 
@@ -753,6 +574,19 @@ PUBLICATIONS HTML
     footer p {
         font-size: 14px;
     }
+    .join-now {
+        background-color: #4bb941;
+        border: none;
+        border-radius: 0.75rem;
+        color: white;
+        padding: 1rem 3rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2rem 0rem;
+        cursor: pointer;
+      }
     .header-section {
         height: 75vh;
     }
@@ -821,62 +655,7 @@ PUBLICATIONS HTML
     .coming-soon p {
         font-size: 36px;
     }
-    /* PUBLICATIONS QUERY */
-    .main-header-section {
-        width: 100vw;
-        margin-top: 83px;
-        padding: 10rem 0rem 5rem 0rem;
-        text-align: center;
-        background: #efefef;
-        margin-bottom: 5rem;
-    }
-    .main-hero-header h1 {
-        font-size: 40px;
-        color: #4bb941;
-    }
-    .main-hero-header h4 {
-        font-size: 22px;
-        color: #000000;
-    }
-    .prosperity-subheading {
-        max-width: 250px;
-        font-size: 15px
-    }
-    .prosperity-details {
-        font-size: 12px;
-    }
-    .article-heading {
-        text-align: center;
-        max-width: 1200px;
-        border-radius: 0;
-        padding: 2rem;
-    }
-    .article-heading h1 {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
-    .article-content {
-        margin-top: 0;
-        box-shadow: none;
-    }
-    .interview-content {
-        padding: 1rem 0.25rem;
-    }
-    .interview-content p {
-        padding: 0.5rem 0rem;
-    }
-    /* CONTACT US */
-    .contact-heading {
-        margin: 5rem 0rem;
-        padding: 2.55rem 5rem;
-    }
-    .contact-heading h1,
-    .contact-heading p {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
+    
 }
 
 
@@ -919,6 +698,19 @@ PUBLICATIONS HTML
     footer p {
         font-size: 14px;
     }
+    .join-now {
+        background-color: #4bb941;
+        border: none;
+        border-radius: 0.75rem;
+        color: white;
+        padding: 1rem 3rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2rem 0rem;
+        cursor: pointer;
+      }
     .header-section {
         height: 75vh;
     }
@@ -987,174 +779,5 @@ PUBLICATIONS HTML
     .coming-soon p {
         font-size: 36px;
     }
-    /* PUBLICATIONS QUERY */
-    .main-header-section {
-        width: 100vw;
-        margin-top: 83px;
-        padding: 10rem 0rem 5rem 0rem;
-        text-align: center;
-        background: #efefef;
-        margin-bottom: 5rem;
-    }
-    .main-hero-header h1 {
-        font-size: 40px;
-        color: #4bb941;
-    }
-    .main-hero-header h4 {
-        font-size: 22px;
-        color: #000000;
-    }
-    .article-heading {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        max-width: 1200px;
-        border-radius: 0;
-        padding: 2rem;
-    }
-    .article-heading h1 {
-        font-size: 36px;
-        color: #ffffff;
-        font-weight: 500;
-    }
-    .prosperity-subheading {
-        align-self: center;
-        max-width: 350px;
-        font-size: 20px
-    }
-    .prosperity-details {
-        font-size: 16px;
-    }
-    .article-content {
-        margin-top: -1rem;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    }
-    .interview-content {
-        padding: 1rem 0.25rem;
-    }
-    .interview-content p {
-        padding: 0.5rem 0rem;
-    }
-    /* CONTACT US */
-    .contact-heading {
-        margin: 5rem 0rem;
-        padding: 2.55rem 5rem;
-    }
-    .contact-heading h1,
-    .contact-heading p {
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: 500;
-    }
+    
 }
-
-
-/* Large devices (desktops, less than 1200px) */
-
-
-/* @media (max-width: 1199.98px) {
-    nav ul li.nav-items {
-        width: 100%;
-        display: none;
-        margin: 0;
-    }
-    nav ul li.nav-items.show {
-        display: block;
-    }
-    nav ul li.btn {
-        display: block;
-    }
-    nav ul li.nav-items:hover:after {
-        opacity: 0;
-    }
-    nav ul li.logo {
-        flex: 1;
-    }
-    .nav-bar {
-        padding: 0rem 1rem;
-    }
-    header {
-        margin: 0 0 .5rem 0;
-    }
-    main p {
-        font-size: 16px;
-    }
-    p {
-        font-size: 16px;
-    }
-    footer {
-        margin-top: 5rem;
-        min-height: 12rem;
-    }
-    footer p {
-        font-size: 14px;
-    }
-    .header-section {
-        height: 75vh;
-    }
-    .hero-header {
-        max-width: 900px;
-        padding: 1.75rem;
-        text-align: center;
-        background-size: contain;
-        align-items: flex-end;
-    }
-    .hero-header h1 {
-        color: #ffffff;
-        font-size: 40px;
-        padding: 0rem;
-    }
-    .hero-header h4 {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 1rem 0rem;
-    }
-    .section {
-        max-width: 900px;
-        padding: 2rem;
-    }
-    .images {
-        padding: 1rem 2.5rem;
-    }
-    .section-1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5rem;
-    }
-    .heading {
-        font-size: 36px;
-        color: #4bb941;
-        padding-bottom: 0.5rem;
-    }
-    .heading-content {
-        font-weight: 100;
-        font-size: 16px;
-        text-align: justify;
-        text-justify: inter-word;
-    }
-    .section-2 {
-        flex-direction: column;
-        box-shadow: none;
-        margin-top: 2.5rem;
-    }
-    .section-3 {
-        flex-direction: column;
-        box-shadow: none;
-        margin-top: 2.5rem;
-    }
-    .section-4 {
-        width: 75%;
-        box-shadow: none;
-        margin-top: 2.5rem;
-        background-color: #ffffff;
-        margin: 2rem;
-    }
-    .section-4 img {
-        width: 400px;
-    }
-    .coming-soon p {
-        font-size: 36px;
-    }
-} */
