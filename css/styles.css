@@ -156,13 +156,14 @@ section) h1 {
 
 .header-section {
     min-width: 1920px;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('../assets/images/woman-banner.jpg');
+    background-image: url('../assets/images/pay-with-card.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: 45%;
+    background-position-x: 50%;
+    /* background-position-y: 45%; */
     justify-content: flex-end;
     align-items: center;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -177,13 +178,14 @@ section) h1 {
 .hero-header h1 {
     color: #ffffff;
     font-size: 72px;
+    padding-bottom: 5rem;
 }
 
-.hero-header h4 {
+/* .hero-header h4 {
     color: #ffffff;
     font-weight: 500;
     padding: 1rem 0 7.5rem 0;
-}
+} */
 
 .section {
     max-width: 1400px;
@@ -343,25 +345,27 @@ section) h1 {
         cursor: pointer;
       }
     .header-section {
-        height: 95vh;
-    }
+        height: 100vh;
+        background-image: url('../assets/images/pay-with-card.jpg');
+        background-position-x: 5%;
+        justify-content: flex-end;
+    }    
     .hero-header {
-        max-width: 375px;
-        padding: 1.75rem 1.75rem 3rem 1.75rem;
+        max-width: 376px;
+        padding: 2.5rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
     }
     .hero-header h1 {
         color: #ffffff;
-        font-size: 40px;
+        font-size: 38px;
         padding: 0rem;
     }
-    .hero-header h4 {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 1rem 0rem;
+    h1.heading {
+        font-size: 32px;
+        color: #4bb941;
+        padding-bottom: 0.5rem;
     }
     .section {
         max-width: 350px;
@@ -462,13 +466,16 @@ section) h1 {
         font-size: 16px;
         margin: 2rem 0rem;
         cursor: pointer;
-      }
-    .header-section {
-        height: 95vh;
     }
+    .header-section {
+        height: 100vh;
+        background-image: url('../assets/images/pay-with-card.jpg');
+        background-position-x: 25%;
+        justify-content: flex-end;
+    }  
     .hero-header {
         max-width: 376px;
-        padding: 1.75rem 1.75rem 3rem 1.75rem;
+        padding: 2.5rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
@@ -478,11 +485,10 @@ section) h1 {
         font-size: 40px;
         padding: 0rem;
     }
-    .hero-header h4 {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 1rem 0rem;
+    h1.heading {
+        font-size: 32px;
+        color: #4bb941;
+        padding-bottom: 0.5rem;
     }
     .section {
         max-width: 376px;
@@ -588,25 +594,27 @@ section) h1 {
         cursor: pointer;
       }
     .header-section {
-        height: 75vh;
-    }
+        height: 100vh;
+        background-image: url('../assets/images/pay-with-card.jpg');
+        background-position-x: 5%;
+        justify-content: flex-end;
+    }    
     .hero-header {
-        max-width: 700px;
-        padding: 1.75rem 1.75rem 3rem 1.75rem;
+        max-width: 376px;
+        padding: 2.5rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
     }
     .hero-header h1 {
         color: #ffffff;
-        font-size: 40px;
+        font-size: 38px;
         padding: 0rem;
     }
-    .hero-header h4 {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 1rem 0rem;
+    h1.heading {
+        font-size: 32px;
+        color: #4bb941;
+        padding-bottom: 0.5rem;
     }
     .section {
         max-width: 700px;
@@ -661,7 +669,7 @@ section) h1 {
 
 /* Medium devices (tablets, less than 992px) */
 
-@media (max-width: 991.98px) and (min-width: 768px) {
+@media (max-width: 991.98px) and (min-width: 767.99px) {
     nav ul li.nav-items {
         width: 100%;
         display: none;
@@ -712,25 +720,27 @@ section) h1 {
         cursor: pointer;
       }
     .header-section {
-        height: 75vh;
-    }
+        height: 100vh;
+        background-image: url('../assets/images/pay-with-card.jpg');
+        background-position-x: 55%;
+        justify-content: flex-end;
+    }    
     .hero-header {
-        max-width: 768px;
-        padding: 1.75rem;
+        max-width: 376px;
+        padding: 2.5rem;
         text-align: center;
         background-size: contain;
         align-items: flex-end;
     }
     .hero-header h1 {
         color: #ffffff;
-        font-size: 40px;
+        font-size: 38px;
         padding: 0rem;
     }
-    .hero-header h4 {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 1rem 0rem;
+    h1.heading {
+        font-size: 32px;
+        color: #4bb941;
+        padding-bottom: 2.5rem;
     }
     .section {
         max-width: 768px;
